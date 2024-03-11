@@ -9,6 +9,7 @@ def main():
     if st.button('Calculator'):
         result = factorial(number)
         st.write(f'The factorial of {number} is {result}')
+        st.balloons()
     
 if __name__ == '__main__':
     main()
